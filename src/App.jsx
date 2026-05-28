@@ -10,7 +10,6 @@ import {
 import brandBoard from './assets/dental-del-mar/brand-board.png'
 import heroMockup from './assets/dental-del-mar/hero-mockup.png'
 import logo from './assets/dental-del-mar/logo.png'
-import palette from './assets/dental-del-mar/palette.png'
 
 const services = [
   {
@@ -212,26 +211,6 @@ function App() {
             })}
           </div>
 
-          <div className="mt-12 grid gap-8 rounded-lg border border-[#e7e5e4] bg-[#f8f7f5] p-6 md:grid-cols-[0.92fr_1.08fr] md:p-8">
-            <img
-              className="h-full min-h-64 rounded-md object-cover"
-              src={palette}
-              alt="Dental Del Mar color palette"
-            />
-            <div className="flex flex-col justify-center">
-              <p className="text-sm font-semibold uppercase tracking-[0.22em] text-[#79736e]">
-                Digital experience style
-              </p>
-              <h3 className="mt-3 text-3xl font-semibold leading-tight text-[#2f3746]">
-                White space, warm neutrals, soft blue accents, and Montserrat typography.
-              </h3>
-              <p className="mt-5 text-base leading-8 text-[#5f5b57]">
-                The interface should feel calm and premium like the physical clinic:
-                minimalist layouts, clear hierarchy, respectful language, and simple booking
-                paths.
-              </p>
-            </div>
-          </div>
         </div>
       </section>
 
